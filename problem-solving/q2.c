@@ -9,7 +9,7 @@ int main(void){
     printf("Enter distance in meter:");
     scanf("%d",&m);
     km=m/1000;
-    M%=1000;
+    M=m%1000;
     printf("%d meters equals %d km and %d m",m,km,M);
     return 0;
 }
